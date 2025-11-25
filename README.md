@@ -1,1 +1,1 @@
-[README.md](https://roadmap.sh/projects/flash-cards)
+https://roadmap.sh/projects/flash-cards
