@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="progress">
+        <p id="progress-text"></p>
+        <div id="progress-track">
+            <div id="progress-bar"></div>
+        </div>
+        </div>
+    </div>
+
+    <div id="flashcard"></div>
+
+    <div id="controls">
+        <button id="prev-btn">Prev</button>
+        <button id="flip-btn">Flip</button>
+        <button id="next-btn">Next</button>
+        <button id="delete-btn">Delete</button>
+    </div>
+
+    <form id="add-form" autocomplete="off">
+        <input id="add-question" placeholder="Question" />
+        <input id="add-answer" placeholder="Answer" />
+        <button id="add-btn" type="submit">Add</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
